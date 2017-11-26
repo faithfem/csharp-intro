@@ -11,7 +11,6 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            Console.WriteLine("Connecting to VS github extension");
         }
     }
 }
