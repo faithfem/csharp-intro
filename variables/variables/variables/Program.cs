@@ -7,7 +7,7 @@ namespace variables
     {
         static void Main(string[] args)
         {
-            byte number = 1;
+            byte number = 5;
             Console.WriteLine(number);
             
         }
