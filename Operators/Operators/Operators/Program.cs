@@ -22,6 +22,8 @@ namespace Operators
             Console.WriteLine(a + b * c);
             Console.WriteLine(a < b);
             Console.WriteLine(a != b);
+            Console.WriteLine(c > b && c > a);
+            Console.WriteLine(c > b || c > a);
         }
     }
 }
