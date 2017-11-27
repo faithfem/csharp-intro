@@ -15,6 +15,7 @@ namespace Sec5Exercise
                 if (i%3 == 0)
                 {
                     Console.WriteLine(i);
+                    //Console.WriteLine(count(i));
                 }
             }
         }
