@@ -16,7 +16,7 @@ namespace DatesAndTime
 
             Console.WriteLine("Hour: " + now.Hour);
             Console.WriteLine("Minute: " + now.Minute);
-            Console.WriteLine("Today is: " + toda);
+            Console.WriteLine("Today is: " + today);
 
             //Once created, dates & time are immutable, so can only be changed using ADD
 
