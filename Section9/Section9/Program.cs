@@ -13,7 +13,7 @@ namespace Section9
         {
             var path = @"c:\somefile.jpg";
             // FILE COPY - PROVIDES STATIC METHODS
-            File.Copy("@"c:\temp\myfile.jpg", @"d:\temp\myfile.jpg",true);
+            File.Copy(@"c:\temp\myfile.jpg", @"d:\temp\myfile.jpg",true);
             File.Delete(path);
             if (File.Exists(path))
             {
@@ -26,7 +26,7 @@ namespace Section9
             var fileInfo = new FileInfo(path); // Specify the path. To copy this file, see line below
             fileInfo.CopyTo("...");
             fileInfo.Delete(); //If you want to delete, do this, no parameters
-            if (fileInfo = new FileInfo(path);//To find if file exists and this is not a method, it's a property
+            if (fileInfo.Exists);//To find if file exists and this is not a method, it's a property
             {
                 // do something
             }
